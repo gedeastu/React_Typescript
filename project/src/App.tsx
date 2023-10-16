@@ -3,7 +3,11 @@ import Button from "./components/button"
 const App = () => {
   return (
    <>
-   <Button bgColor = {`bg-blue-500`} text={`Press Button`}/>
+   <Button 
+   bgColor = {`bg-blue-500`} 
+   textColor="text-white"
+   text={`Press Button`}
+   />
    </>
   )
 }
