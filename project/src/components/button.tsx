@@ -1,14 +1,21 @@
 // import React from 'react'
 type textColor = `text-white` | `text-black` | `text-red-200`;
+type text = 'Press Button' | 'Loading' | 'Success';
 type ButtonProps = {
-    bgColor?:string;
-    text?:string;
-    textColor?: textColor;
+
+  Padding : {
+    paddingY?: string;
+    paddingX?: string;
+  };
+  
+  bgColor?:string;
+  textColor?: textColor;
+  text?:text;
 };
-const button = ({bgColor,text,textColor} : ButtonProps) => {
+const button = ({Padding,bgColor,textColor,text} : ButtonProps) => {
   return (
     <>
-    <button className={`${bgColor} font-semibold ${textColor} p-3 rounded-lg`}>
+    <button className={`${bgColor} ${Padding.paddingX} ${Padding.paddingY} ${textColor} font-semibold p-3 rounded-lg`}>
     {text}
     </button>
     </>

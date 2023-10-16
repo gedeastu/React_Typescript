@@ -4,9 +4,15 @@ const App = () => {
   return (
    <>
    <Button 
-   bgColor = {`bg-blue-500`} 
-   textColor="text-white"
+   bgColor = {`bg-blue-400`}
+   textColor = {`text-white`}
    text={`Press Button`}
+
+   Padding={{
+    paddingX:"px-10",
+    paddingY:"py-10"
+   }}
+   
    />
    </>
   )
