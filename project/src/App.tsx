@@ -9,8 +9,8 @@ const App = () => {
    text={`Press Button`}
 
    Padding={{
-    paddingX:"px-10",
-    paddingY:"py-10"
+    paddingX:"px-5",
+    paddingY:"py-5"
    }}
    
    />

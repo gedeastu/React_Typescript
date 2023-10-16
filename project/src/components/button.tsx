@@ -7,7 +7,7 @@ type ButtonProps = {
     paddingY?: string;
     paddingX?: string;
   };
-  
+
   bgColor?:string;
   textColor?: textColor;
   text?:text;
